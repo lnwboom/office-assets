@@ -11,6 +11,7 @@ interface AssetDocument {
   type: string;
   status: string;
   purchaseDate: Date;
+  description?: string; // Add this line
   createdAt?: Date;
   updatedAt?: Date;
 }
